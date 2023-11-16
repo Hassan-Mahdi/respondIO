@@ -1,0 +1,726 @@
+/*-----------------------
+[Main Stylesheet]
+
+Project:    Respond.IO
+Version:    1.0
+Last change:    12/10/2023
+Assigned to:    
+Primary use:    
+-------------------------------*/
+
+/* ----------------------
+## Table Contents ##
+* 01. hero banner
+* 02. io business
+* 03. who we are
+* 04. Messaging Platform
+* 05. Empowering
+* 06. Marketing
+* 07. WhatsApp Solution
+* 08. Audience
+* 09. Channels
+* 10. communications
+* 11. Advertising
+* 12. Build relationships
+* 13. Sales Conversations
+* 14. Chat Routing
+* 15. Shopping
+* 16. Promotional
+* 17. Outcomes
+* 18. Streamline
+* 19. Buyers
+* 20. Achieving
+* 21. Expected Business
+* 22. Pricing Scales
+* 23. media
+* 23. Thank You
+---------------------- **/
+/*NOTE: You can write your code in css/style.css file.*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* hero banner*/
+.resondio_section {
+    background-color:#448AFF;
+}
+
+.hero {
+    height: 650px;
+}
+
+.hero__mid__logo {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.hero__mid__content {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero__mid__logo img {
+    width: 100%;
+}
+
+.hero_right img {
+    width: 100%;
+}
+
+.hero_right {
+    padding: 0;
+    align-self: self-end;
+}
+
+/* io business */
+.business__io__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business__io__img img{
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+}
+
+.business__io__content {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.business__io__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.business__io__right img {
+    width: 90%;
+}
+
+.business__io__right__img1 {
+    background-color: #C2D8FF;
+    position: relative;
+}
+
+.business__io__right__img1 img{
+    padding-left: 30px;
+    position: absolute;
+    right: 0;
+}
+
+/* .business__io__right__img2 {
+
+} */
+
+.business__io__right__img2 img {
+    width: 80%;
+}
+
+.business__io__right__img3 {
+    background-color: #273240;
+    position: relative;
+}
+
+.business__io__right__img3 img{
+    padding: 30px;
+    width: 100%;
+}
+
+.business__io__right__img4 {
+    background-color: #FFC400;
+    position: relative;
+}
+
+.business__io__right__img4 img{
+    margin: 30px 0 0 30px;
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width:768px) {
+    .business__io__content img {
+        position: static;
+    }
+    .business__io__content{
+        padding: 15px 15px;
+    }
+}
+
+/* 03. who we are */
+.who {
+    background-color: #ffc400;
+    padding-top: 20px;
+}
+.who__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 20px;
+}
+
+/* Messaging Platform */
+.messaging {
+    padding: 20px 0;
+}
+.messaging__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.messaging__social_img img{
+    width: 100%;
+    padding: 5px;
+}
+
+.messaging__support__item {
+    display: flex;
+    align-items: end;
+    padding: 10px;
+}
+
+.messaging__support__item img {
+    width: 100%;
+}
+
+.messaging__support__item img{
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.messaging__right {
+    display: flex;
+    justify-content: center;
+    border-left: 3px solid #bebebe;
+    position: relative;
+}
+
+.messaging__mid__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messaging__mid__img img {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .messaging__mid__img img {
+        padding: 20%;
+    }
+}
+
+.messaging__mid__Lline {
+    width: 50px;
+    height: 3px;
+    background-color: #bebebe;
+}
+
+.messaging__up__line {
+    width: 30px;
+    height: 3px;
+    background-color: #bebebe;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.messaging__down__line {
+    width: 30px;
+    height: 3px;
+    background-color: #bebebe;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* 05. Empowering */
+.empowering__section {
+    background-color: #EBEBFF;
+}
+.empowering__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid;
+}
+
+.empowering__customers img{
+    padding: 15px;
+    width: 100%;
+}
+.empowering__customers {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 425px) {
+    .empowering__logo {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+
+/* Marketing */
+.marketing__card {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin: 10px 10px;
+    padding: 0;
+}
+
+/* 07. WhatsApp Solution */
+.wp__solution {
+    background-color: #ffc400;
+}
+.wp__solution__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 20px;
+}
+.wp__solution_img {
+    margin-top: 50px;
+}
+
+/* 08. Audience */
+ul.audience__list__item {
+    list-style-position: inside;
+    margin-top: 20px;
+}
+
+.audience__list__item li{
+    font-size: 1.5rem;
+}
+
+/* 09. Channels */
+
+/* 10. communications */
+.communications {
+    padding: 20px 0;
+}
+
+.communications__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.communications__content__img img{
+    width: 100%;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .communications__content__logo {
+        display: none;
+    }
+}
+
+.communications__content {
+    padding: 30px 20px;
+}
+
+.communications____icon, .communications__icon__text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+   .communications__icon__text {
+        font-size: 0.8rem;
+    }
+}
+.communications____icon img{
+    width: 100%;
+    padding: 5px;
+}
+
+.communications__icon__text p{
+    text-align: center;
+    padding: 5px;
+}
+
+@media (max-width: 540px) {
+    .communications__icon__text p {
+        font-size: 2.4vw;
+    }
+}
+
+@media (max-width:575px) {
+    .communications__content__responsive {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+/* 11. Advertising */
+.add {
+    background-color: #EBF1FF;
+}
+.add_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.add_img img{
+    width: 100%;
+}
+
+.add__tittle__blue {
+    display: inline-block;
+    background-color: #448AFF;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/* 12. Build relationships */
+.relation__content {
+    background-image: url(../images/Picture21.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.relation__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 13. Sales Conversations */
+.sales {
+    background-color: #EBF1FF;
+}
+
+.sales__img img{
+    width: 70%;
+    margin-top: 40px;
+}
+
+/* 14. Chat Routing */
+.routing {
+    background-color: #448AFF;
+    color: #fff;
+}
+
+.routing__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.routing__img img{
+    width: 70%;
+    margin-left: 0 auto;
+}
+
+.add__tittle__black {
+    display: inline-block;
+    background-color: #fff;
+    color: #273240;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/* 15. Shopping */
+
+/* 16. Promotional */
+.promotion {
+    background-color: #EBF2FF;
+}
+
+.promotion__img img{
+    width: 100%;
+}
+
+/* 17. Outcomes */
+.outcomes__text a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+}
+
+.outcomes__text button{
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+.outcomes__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.outcomes__img {
+    background-color: #EBF1FF;
+}
+
+.outcomes__img img{
+    width: 100%;
+}
+
+/* 18. Streamline */
+.streamline__img {
+    background-color: #FFECAD;
+}
+
+.streamline__img img {
+    width: 100%;
+}
+
+/* 19. Buyers */
+.buyers__img{
+    background-color: #EBEBFF;
+}
+
+.buyers__img img {
+    width: 100%;
+}
+
+/* 20. Achieving */
+.achive__section {
+    background-color: #EBF1FF;
+}
+.achive__content__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.achive__line0 {
+    border-left: 1px solid;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .achive__line0 {
+        height: 340px;
+    }
+}
+
+.achive__circle {
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #448AFF;
+}
+
+.achive__mini__circle {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #448AFF;
+}
+
+.achive__circle small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* .achive__line1 style*/
+.achive__line1 {
+    position: relative;
+}
+
+.achive__circle1 {
+    position: absolute;
+    top: 59px;
+    left: -10px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FABA8F;
+}
+
+.achive__mini__circle1 {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FABA8F;
+}
+
+.achive__mini__circle1 small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.achive__circle1__gap1 {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border-left: 1px solid;
+    margin-left: -1.5rem;
+}
+
+.achive__circle1__gap {
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+.achive__responsive {
+    padding-top: 20px;
+}
+
+@media (max-width:767px) {
+    .achive__circle1__gap {
+        display: none;
+    }
+    .achive__responsive {
+        margin-left: 20px;
+    }
+    .achive__responsiveB {
+        margin-bottom: 60px;
+    }
+    .achive__img {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .achive__responsive2 {
+        margin-top: 60px;
+    }
+}
+
+
+/* 21. Expected Business */
+.expected__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.card__header__item img {
+    width: 100%;
+    margin-left: -12px;
+}
+
+.card__header__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #448AFF;
+    color: #fff;
+    margin: -8px 16px;
+    border-radius: 0 5px 0 0;
+}
+
+.card__header__text small{
+    transform: rotate(-90deg);
+}
+
+@media (max-width: 425px) {
+    .expected__logo {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* 22. Pricing Scales */
+.Pricing__container {
+    margin-top: 20px;
+}
+
+.Pricing__table__head th{
+    width: 25%;
+}
+
+.Pricing__table__body {
+    padding: 10px;
+    text-align: center;
+}
+
+/* 22. media */
+.media__img {
+    background-color: #C2D8FF;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.media__img img{
+    width: 100%;
+    padding: 10px;
+}
+
+.Pricing__table {
+    overflow: scroll;
+}
+
+/* 23. Thank You */
+.thank__section {
+    background-color: #448AFF;
+    color: #fff;
+}
+
+.thank__img img{
+    width: 100%;
+}
+
+.thank__content {
+    text-align: center;
+}
+
+.thank__content div {
+    padding: 15px 0;
+}
+
+.thank__content small {
+    display: block;
+}
